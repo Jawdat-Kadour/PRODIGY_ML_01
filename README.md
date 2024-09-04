@@ -1,8 +1,8 @@
-### Introduction
+## Introduction
 This project focuses on applying various machine learning techniques to predict outcomes using a structured dataset. The project demonstrates the end-to-end process of preparing data, training models, and evaluating their performance. It utilizes multiple regression models and ensemble techniques to enhance predictive accuracy.
 _________________________________________
 
-### How It Works
+## How It Works
 1. Data Preprocessing: The dataset is split into training and testing sets, with categorical features being encoded using OneHotEncoder. Numerical features are standardized using StandardScaler to ensure consistency across different scales.
 
 2. Feature Engineering: New features are created by combining existing ones to capture potential interactions between variables. For example, interaction terms like GroundFloor_LivingArea and TotalArea_Rooms are generated to enrich the feature set.
@@ -18,7 +18,7 @@ _________________________________________
 7. Evaluation: The performance of the models is evaluated using metrics like Mean Squared Error (MSE) and R² Score, both on training and testing data.
 _________________________________________
 
-### Requirements
+## Requirements
 - Python 3.x
 - Pandas
 - NumPy
